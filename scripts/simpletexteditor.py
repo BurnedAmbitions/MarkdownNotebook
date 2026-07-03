@@ -1,14 +1,11 @@
-# based on tutorial from: https://www.w3resource.com/python-exercises/pyqt/python-pyqt-widgets-exercise-3.php
-
 import sys
-
-from PySide6.QtGui import QFont, QAction
-from PySide6.QtWidgets import QMainWindow, QToolBar, QApplication, QWidget, QTextEdit, QFileDialog, QVBoxLayout
+from PySide6.QtWidgets import QMainWindow
 from layout_color import Color
 
-#imports from PySide
+# Right now, all this shows is a red color.
 
-print (sys.path)
+print(sys.path)
+
 
 class TextEditor(QMainWindow):
     def __init__(self):
@@ -16,49 +13,26 @@ class TextEditor(QMainWindow):
         # set window size and title
 
         # give the central widget text edit
-        self._text_edit = Color('red')
-        self.setCentralWidget(self._text_edit)
+        self.text_edit = Color('red')
+        self.setCentralWidget(self.text_edit)
 
         # create toolbar -> file with opening and saving
 
-
-        #open action
+        # open action
 
         # save action
         pass
 
+    # widget for main window  # widget for text editing
 
+    # actions for opening and saving  # connect actions to methods
 
-    #widget for main window
-    #widget for text editing
+    # create menu bar and file menu  # add saving and opening
 
-    #actions for opening and saving
-    #connect actions to methods
+    # create layout for central wdiget and add text edit
 
-    #create menu bar and file menu
-    #add saving and opening
+    # set layout as central wediget
 
-    #create layout for central wdiget and add text edit
+    # def open file
 
-    #set layout as central wediget
-
-    #def open file
-
-    #def save file
-
-
-#def main
-
-#directly from tutorial bc idk what this does
-def main():
-    app = QApplication(sys.argv)
-    window = TextEditor()
-    window.show()
-    app.exec()
-    pass
-
-
-if __name__ == "__main__":
-    main()
-
-
+    # def save file
