@@ -79,3 +79,5 @@ https://studio-obsidian.com/obsidian-markdown-guide/#tables
 
 ## References/Tutorials
 - https://www.w3resource.com/python-exercises/pyqt/python-pyqt-widgets-exercise-3.php
+- for graph nodes later: https://doc.qt.io/qtforpython-6/examples/example_widgets_graphicsview_elasticnodes.html
+- layout: https://doc.qt.io/qtforpython-6/overviews/qtwidgets-layout.html

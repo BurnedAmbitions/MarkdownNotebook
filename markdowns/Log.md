@@ -9,3 +9,13 @@ by: ambitions
 ### July 3rd 
 - Setting up git control 
 - File Organization 
+- requirements.txt 
+- code formatting
+
+#### Elements for later: 
+- Text edit 
+- Tabs 
+- Upper bar 
+- File tree 
+- Sidebar 
+- status bar 

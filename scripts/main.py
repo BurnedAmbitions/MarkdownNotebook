@@ -1,6 +1,6 @@
 import sys
 from PySide6.QtWidgets import QApplication
-from scripts.simpletexteditor import TextEditor
+from scripts.simpletexteditor import MainWindow
 
 
 # Press Shift+F10 to execute it or replace it with your code.
@@ -12,7 +12,7 @@ from scripts.simpletexteditor import TextEditor
 #directly from tutorial bc idk what this does
 def main():
     app = QApplication(sys.argv)
-    window = TextEditor()
+    window = MainWindow()
     window.show()
     app.exec()
     pass

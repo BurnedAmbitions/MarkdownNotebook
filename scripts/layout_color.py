@@ -8,5 +8,5 @@ class Color(QWidget):
         self.setAutoFillBackground(True)
 
         palette = self.palette()
-        palette.setColor(QPalette.ColorRole.Window, QColor(color))
+        palette.setColor(QPalette.ColorRole.Window, color)
         self.setPalette(palette)
